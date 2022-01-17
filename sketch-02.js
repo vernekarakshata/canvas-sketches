@@ -20,7 +20,7 @@ const sketch = () => {
     const h = height * 0.1;
     let x, y;
 
-    const num = 100;
+    const num = 40;
     const radius = width * 0.3;
 
     for (let i = 0; i < num; i++) {

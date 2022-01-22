@@ -5,6 +5,7 @@
   "main": "sketch-01.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "canvas-sketch sketch-%npm_config_tag%.js",
     "create": "canvas-sketch sketch-%npm_config_tag%.js --new"
   },
   "keywords": [],

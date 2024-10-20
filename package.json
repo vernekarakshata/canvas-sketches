@@ -4,16 +4,18 @@
   "description": "",
   "main": "sketch-01.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canvas-sketch sketch-%npm_config_tag%.js",
+    "start": "canvas-sketch sketch-%npm_config_tag%.js --open",
     "create": "canvas-sketch sketch-%npm_config_tag%.js --new"
   },
   "keywords": [],
-  "author": "",
+  "author": "akshata vernekar",
   "license": "ISC",
+  "devDependencies": {
+    "canvas-sketch-cli": "^1.11.21"
+  },
   "dependencies": {
-    "canvas-sketch": "^0.7.4",
+    "canvas-sketch": "^0.7.7",
     "canvas-sketch-util": "^1.10.0",
-    "tweakpane": "^3.0.7"
+    "tweakpane": "^3.1.7"
   }
 }

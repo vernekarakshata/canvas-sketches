@@ -10,6 +10,10 @@ npm run create --tag `<tag-id>`
 
 npm run start --tag `<tag-id>`
 
+## To build scripts
+
+npm run build --tag `<tag-id>`
+
 ## Sketches
 
 | Name         | tag |

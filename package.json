@@ -5,7 +5,8 @@
   "main": "sketch-01.js",
   "scripts": {
     "start": "canvas-sketch sketch-%npm_config_tag%.js --open",
-    "create": "canvas-sketch sketch-%npm_config_tag%.js --new"
+    "create": "canvas-sketch sketch-%npm_config_tag%.js --new",
+    "build": "canvas-sketch sketch-%npm_config_tag%.js --name index --build --inline"
   },
   "keywords": [],
   "author": "akshata vernekar",

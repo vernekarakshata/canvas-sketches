@@ -6,7 +6,8 @@
   "scripts": {
     "start": "canvas-sketch sketch-%npm_config_tag%.js --open",
     "create": "canvas-sketch sketch-%npm_config_tag%.js --new",
-    "build": "canvas-sketch sketch-%npm_config_tag%.js --name index --build --inline"
+    "build": "canvas-sketch sketch-%npm_config_tag%.js --name index --build --inline",
+    "vercel-build": "canvas-sketch"
   },
   "keywords": [],
   "author": "akshata vernekar",

@@ -14,6 +14,10 @@ npm run start --tag `<tag-id>`
 
 npm run build --tag `<tag-id>`
 
+## Vercel Deployments
+
+npm run vercel-build -- sketch-<tag-id>.js --name ./public/index --build --inline
+
 ## Sketches
 
 | Name         | tag |
@@ -23,3 +27,4 @@ npm run build --tag `<tag-id>`
 | sketch-03.js | 03  |
 | sketch-04.js | 04  |
 | sketch-05.js | 05  |
+| sketch-06.js | 06  |
